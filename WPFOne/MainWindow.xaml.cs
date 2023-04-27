@@ -12,6 +12,7 @@ using System.Windows.Media;
 using System.Windows.Media.Imaging;
 using System.Windows.Navigation;
 using System.Windows.Shapes;
+using WPFOne.Codes;
 
 namespace WPFOne
 {
@@ -20,9 +21,17 @@ namespace WPFOne
     /// </summary>
     public partial class MainWindow : Window
     {
+
+        List<User> users = new List<User>
+        {
+            new User(){Id = 1, LastName = "Шигапов", FirstName = "Динар", Age = 18, City = "Казань" },
+            new User(){Id = 2, LastName = "Шигапов", FirstName = "Динар", Age = 18, City = "Казань" }
+        };
+             
         public MainWindow()
         {
             InitializeComponent();
+            LVUser.ItemsSource = users;
         }
     }
 }

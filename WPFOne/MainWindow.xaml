@@ -313,7 +313,43 @@
 
 
             <TabItem x:Name="TINotif" Header="Notifications"/>
-            <TabItem x:Name="TIStatus" Header="Status"/>
+            <TabItem x:Name="TIStatus" Header="Status" >
+                <ListView x:Name="LVUser" d:ItemsSource="{d:SampleData ItemCount=5}">
+                    <ListView.ItemTemplate>
+                        <DataTemplate>
+                            <Border x:Name="border" CornerRadius="20"
+                                    Margin="-6 0 0 0"
+                                    Padding="10 0 10 0"
+                                    Width="{Binding ActualWidth, ElementName=LVUser, Mode=OneWay}"
+                                    Height="40">
+                                <Border.Background>
+                                    <SolidColorBrush Color="Black" Opacity="0.1"/>
+                                </Border.Background>
+
+                                <Grid VerticalAlignment="Center">
+                                    <Grid.ColumnDefinitions>
+                                        <ColumnDefinition Width="30"/>
+                                        <ColumnDefinition Width="*"/>
+                                        <ColumnDefinition Width="*"/>
+                                        <ColumnDefinition Width="*"/>
+                                        <ColumnDefinition Width="*"/>
+                                    </Grid.ColumnDefinitions>
+
+                                    <TextBlock Text="{Binding Id}"/>
+                                    <TextBlock Text="{Binding LastName, StringFormat='Фамилия: {0}'}"
+                                               Grid.Column="1"/>
+                                    <TextBlock Text="{Binding FirstName, StringFormat='Имя: {0}'}"
+                                               Grid.Column="2"/>
+                                    <TextBlock Text="{Binding Age, StringFormat='Возраст: {0}'}"
+                                               Grid.Column="3"/>
+                                    <TextBlock Text="{Binding City, StringFormat='Город: {0}'}"
+                                               Grid.Column="4"/>
+                                </Grid>
+                            </Border>
+                        </DataTemplate>
+                    </ListView.ItemTemplate>
+                </ListView>
+            </TabItem>
             <TabItem x:Name="TIView" Header="View">
                 <TabItem.Content>
                     <Grid>
