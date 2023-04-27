@@ -25,7 +25,8 @@ namespace WPFOne
         List<User> users = new List<User>
         {
             new User(){Id = 1, LastName = "Шигапов", FirstName = "Динар", Age = 18, City = "Казань" },
-            new User(){Id = 2, LastName = "Шигапов", FirstName = "Динар", Age = 18, City = "Казань" }
+            new User(){Id = 2, LastName = "Шигапов", FirstName = "Динар", Age = 18, City = "Казань" },
+            new User(){Id = 3, LastName = "Шигапов", FirstName = "Динар", Age = 18, City = "Казань" }
         };
              
         public MainWindow()

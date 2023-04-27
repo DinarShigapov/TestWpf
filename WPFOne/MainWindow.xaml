@@ -6,6 +6,7 @@
         xmlns:local="clr-namespace:WPFOne"
         mc:Ignorable="d"
         Title="MainWindow" Height="450" Width="800"
+        ResizeMode="NoResize"
     xmlns:theme="clr-namespace:Microsoft.Windows.Themes;assembly=PresentationFramework.Aero2">
 
     <Window.Resources>
@@ -318,9 +319,10 @@
                     <ListView.ItemTemplate>
                         <DataTemplate>
                             <Border x:Name="border" CornerRadius="20"
-                                    Margin="-6 0 0 0"
+                                    BorderThickness="1"
+                                    BorderBrush="Black"
                                     Padding="10 0 10 0"
-                                    Width="{Binding ActualWidth, ElementName=LVUser, Mode=OneWay}"
+                                    Width="753"
                                     Height="40">
                                 <Border.Background>
                                     <SolidColorBrush Color="Black" Opacity="0.1"/>
