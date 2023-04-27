@@ -384,7 +384,7 @@
                                         <Style TargetType="TextBlock">
                                             <Setter Property="FontSize" Value="20"/>
                                             <Setter Property="VerticalAlignment" Value="Bottom"/>
-                                            <Setter Property="Margin" Value="0 0 0 11"/>
+                                            <Setter Property="Margin" Value="0 0 0 10"/>
                                         </Style>
                                     </Style.Resources>
                                 </Style>
