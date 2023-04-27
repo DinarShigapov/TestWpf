@@ -1,0 +1,17 @@
+C:\Users\progWeb\source\repos\WPFOne\WPFOne\bin\Debug\WPFOne.exe.config
+C:\Users\progWeb\source\repos\WPFOne\WPFOne\bin\Debug\WPFOne.exe
+C:\Users\progWeb\source\repos\WPFOne\WPFOne\bin\Debug\WPFOne.pdb
+C:\Users\progWeb\source\repos\WPFOne\WPFOne\obj\Debug\WPFOne.csproj.AssemblyReference.cache
+C:\Users\progWeb\source\repos\WPFOne\WPFOne\obj\Debug\WPFOne.csproj.SuggestedBindingRedirects.cache
+C:\Users\progWeb\source\repos\WPFOne\WPFOne\obj\Debug\MainWindow.g.cs
+C:\Users\progWeb\source\repos\WPFOne\WPFOne\obj\Debug\App.g.cs
+C:\Users\progWeb\source\repos\WPFOne\WPFOne\obj\Debug\WPFOne_MarkupCompile.cache
+C:\Users\progWeb\source\repos\WPFOne\WPFOne\obj\Debug\WPFOne_MarkupCompile.lref
+C:\Users\progWeb\source\repos\WPFOne\WPFOne\obj\Debug\App.baml
+C:\Users\progWeb\source\repos\WPFOne\WPFOne\obj\Debug\MainWindow.baml
+C:\Users\progWeb\source\repos\WPFOne\WPFOne\obj\Debug\WPFOne.g.resources
+C:\Users\progWeb\source\repos\WPFOne\WPFOne\obj\Debug\WPFOne.Properties.Resources.resources
+C:\Users\progWeb\source\repos\WPFOne\WPFOne\obj\Debug\WPFOne.csproj.GenerateResource.cache
+C:\Users\progWeb\source\repos\WPFOne\WPFOne\obj\Debug\WPFOne.csproj.CoreCompileInputs.cache
+C:\Users\progWeb\source\repos\WPFOne\WPFOne\obj\Debug\WPFOne.exe
+C:\Users\progWeb\source\repos\WPFOne\WPFOne\obj\Debug\WPFOne.pdb
