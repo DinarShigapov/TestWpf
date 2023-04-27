@@ -374,7 +374,7 @@
                                      Width="200"
                                      Height="40"
                                      Value="40"
-                                     Background="White"/>
+                                     Background="#FFC5FBFB"/>
 
                         <StackPanel Grid.Row="3"
                                     Orientation="Horizontal"

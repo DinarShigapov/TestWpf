@@ -27,5 +27,8 @@ namespace WPFOne.Codes
         public int Age { get; set; }
         public string City { get; set; }
 
+
+
+
     }
 }
