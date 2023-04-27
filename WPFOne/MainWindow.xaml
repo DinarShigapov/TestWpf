@@ -373,7 +373,8 @@
                         <ProgressBar Grid.Row="2"
                                      Width="200"
                                      Height="40"
-                                     Value="40"/>
+                                     Value="40"
+                                     Background="White"/>
 
                         <StackPanel Grid.Row="3"
                                     Orientation="Horizontal"
